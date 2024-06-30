@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    scroll-snap-align:center;
+}
+
+.sec1{
+    background: url('trees.jpg');
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sec2{
+    background: url('tiger.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sec3{
+    background: url('elephant.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sec4{
+    background: url('roe-deer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.sec5{
+    background: url('eurasian-pygmy-owl.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.conatainer{
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    padding: 2rem 5rem;
+    align-self: flex-end;
+}
+
+.main-container{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior:smooth;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    flex-flow: column; */
+}
+
+.sec1 h1 {
+    width: 500px;
+    margin: 20% auto;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 3px 15px rgb(19, 91, 15);
+    transition: text-shadow 0.3s ease;
+}
+
+.sec1 h1:hover{
+    text-shadow: 4px 5px 2px rgb(7, 41, 4);
+    cursor: pointer;
+    display: inline;
+}
+
+.sec2 h1{
+   color: rgb(209, 147, 32);
+}
+
+.sec3 h1{
+    color: rgb(116, 110, 110);
+}
+
+.sec4 h1{
+    color: rgb(203, 100, 62);
+}
+
+.sec5 h1{
+    color: rgb(206, 163, 107);
+}
